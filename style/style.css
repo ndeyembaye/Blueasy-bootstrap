@@ -1,0 +1,80 @@
+ 
+ body{
+     width: 100%;
+     height: auto;
+     margin: 0px;
+     padding: 0px;
+ }
+ #menu{
+     background-color: black;
+     opacity: 90%;
+     position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 10;
+ }
+ ul li a{
+    color: white;
+}
+ 
+.photo img{
+    background-size: cover;
+    opacity: 50%;
+    display: block;
+    width: 100%;
+}
+.text_sur_image{
+    position: absolute;
+    top: 200px;
+    margin-left: 900px;
+}
+ 
+ .text_sur_image p{
+  width: 400px;
+  text-align: center;
+ }
+.font_blue{
+    background-color: #4bcaff;
+  
+}
+.font_blue p{
+    color: white;
+}
+.font_blue{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#image_2 img{
+    width: 100%;
+}
+ #image_2 form{
+     margin-top: -35%;
+ }
+ #image_2 form input {
+     background-color: transparent;
+     border: 2px solid white;
+ }
+ #image_2  form textarea {
+    background-color: transparent;
+    border: 2px solid white;
+}
+label{
+    color: white;
+}
+.text_formulaire{
+    color: white;
+}
+ 
+.footer{
+    position: absolute;
+    background-color: black;
+    opacity: 77%;
+    height: 100px;
+    width: 100%;
+    
+   
+    font-size: 12px;
+}
+.footer p{
+    margin-top: 35px;
+}
